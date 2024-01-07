@@ -1,0 +1,64 @@
+        /* Common Shared Styles */
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    
+}
+
+        /* Banner Related Styles */
+.banner{
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
+    url(../Images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    margin: 50px 140px 120px 140px;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+   
+
+    
+}       
+
+.new-year{
+    font-size: 32px;
+    font-weight: 400;
+    padding: 175px 530px 15px 530px ;
+    color: #FFF;
+    text-align: center;
+}
+
+.new-year-party{
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    padding: 0px 344px 175px 344px;
+}
+
+        /* 65% OFF */
+.offer{
+    color: #F00;
+    text-align: center; 
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.deals{
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+.categories{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+    margin-top: 18px;
+
+}
+.new-year-img{
+    margin: 0px 399px 120px 399px;
+}
