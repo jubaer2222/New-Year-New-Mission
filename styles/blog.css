@@ -201,7 +201,7 @@ background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-rep
 
 .holiday{
     text-align: center;
-    justify-content: center;
+  
 }
 .holiday-h4{
     color: #070211;
@@ -209,11 +209,10 @@ background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-rep
     font-weight: 500;
 }
 .holiday-h2{
-    /* text-align: center; */
-font-family: Merriweather;
-font-size: 72px;
-font-style: normal;
-font-weight: 900;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
 }
 .span-h{
     color: #F00;
@@ -226,4 +225,32 @@ font-weight: 900;
     line-height: 32px;
     margin: 0px 266px;
     
+}
+
+       /* SUBSCRIBE */
+.subscribe{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    margin-top: 120px;
+    width: 1320px;
+height: 616px;
+}
+.sub-img{
+    padding-top: 80px;
+    /* padding-bottom: 30px; */
+}
+.sub-h3{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.sub-p{
+    padding: 5px 212px 14px 212px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
 }
