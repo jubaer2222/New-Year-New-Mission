@@ -307,11 +307,42 @@ body{
     font-weight: 400;
     line-height: 32px;
 }
+.susc{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+    
+    
+}
+.inp{
+    border:none;
+    width: 350px;
+    height: 70px;
+    border-radius: 50px 0px  0px 50px;
+    color: rgba(7, 2, 17, 0.30);
 
-/* footer styles */
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    
+    
+}
+.bt{
+    background: #F00;
+    border-radius:  0px 50px 50px 0px;
+    border: none;
+    width: 160px;
+    color: #FFF;
+
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+}
+
+/* FOOTER STYLES */
 .footer-all{
     background: #070211;
-    margin-bottom: 120px;
+    
 }
 
 .foot{
@@ -388,5 +419,5 @@ padding-top: 24px;
     font-size: 24px;
     margin-left: 140px;
     margin-right: 140px;
-    margin-bottom: 120px;
+   padding-bottom: 120px;
 }
