@@ -223,9 +223,7 @@ body{
     font-weight: 500;
 }
 .holiday-h2{
-    font-family: Merriweather;
     font-size: 72px;
-    font-style: normal;
     font-weight: 900;
 }
 .span-h{
@@ -233,7 +231,6 @@ body{
 }
 .holiday-p{
     color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
@@ -288,6 +285,7 @@ body{
     margin-top: 120px;
     margin-left: 140px;
     margin-right: 140px;
+    margin-bottom: 120px;
     
     
 }
@@ -308,4 +306,87 @@ body{
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+}
+
+/* footer styles */
+.footer-all{
+    background: #070211;
+    margin-bottom: 120px;
+}
+
+.foot{
+    display: flex;
+    text-align: center;
+    
+
+
+}
+.foot-p{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 120px;
+    margin-left: 140px;
+    /* margin-right: 560px; */
+
+}
+
+.web{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 24px;
+}
+.web-icon{
+    display: flex;
+    text-align: center;
+    gap: 8px;
+}
+.number{
+    color: #FFF;
+    font-size: 24px;
+}
+.web-icon1{
+    display: flex;
+    gap: 8px;
+    /* width: 24px;
+height: 24px */
+    /* text-align: center; */
+    font-size: 24px;
+
+}
+.web-icon-img{
+    width: 24px;
+height: 24px;
+padding-top: 24px;
+}
+
+.num-img{
+    margin-left: 400px;
+    margin-top: 120px;
+}
+
+.fb-ins{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+.hr-1{
+    width: 1320px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.hr-2{
+    width: 1320px;
+    margin-top: 48px;
+    margin-bottom: 90px;
+}
+
+.uns{
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-size: 24px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 120px;
 }
